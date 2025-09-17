@@ -4,9 +4,6 @@ export default function Batsman() {
     const [runs, setRuns] = useState(0);
     const [sixes,setSixes]=useState(0);
     const [ fours,setFours]=useState(0)
-    const BatsmanStyle = {
-        border: '2px solid red'
-    }
     const handleSingle = () => {
         const updatedRuns = runs + 1;
         setRuns(updatedRuns)
@@ -25,7 +22,7 @@ export default function Batsman() {
         setRuns(updatedRuns)
     }
     return (
-        <div style={BatsmanStyle}>
+        <div className="batsman">
             <h3>Player:Bangladesi</h3>
             <p>Six:{sixes}</p>
             <p>Four:{fours}</p>

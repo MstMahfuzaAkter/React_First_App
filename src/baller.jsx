@@ -7,7 +7,7 @@ export default function Baller(){
         setBalls(updatedball)
     }
     return(
-        <div>
+        <div className="ballerman">
            <h3>Player:Baller</h3>
            <h4 >Score:{balls}</h4>
            <button onClick={handleBalls}>Count Ball</button>

@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+.card,.batsman,.ballerman{
+  border: 2px solid yellowgreen;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
