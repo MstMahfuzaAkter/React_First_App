@@ -1,9 +1,9 @@
 import counter from './counter'
 import './App.css'
 import Counter from './counter'
-import batmans from './batsmans'
-import Batmans from './batsmans'
 import Batsman from './batsmans'
+import baller from './baller'
+import Baller from './baller'
 
 function App() {
   function handleClick() {
@@ -19,6 +19,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <Baller></Baller>
       <Batsman></Batsman>
       <Counter count></Counter>
       <button onClick={handleClick}>CLick me</button>
